@@ -1,0 +1,2 @@
+# SQL-Assignments
+DDL commands
