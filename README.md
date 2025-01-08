@@ -1,2 +1,3 @@
 # SQL-Assignments
-Assignment 1 : Created a Data base and table then Perfomed all the DDL commands
+Assignment 1 : Perfomed all the DDL commands.
+Assignment 2: Performed DML commands.
