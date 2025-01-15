@@ -10,3 +10,7 @@ Assignment 3: A simple SQL assignment to create and manage a database of manager
 Assignment 4: This assignmnet involves creating and populating Country and Persons tables, and executing various SQL queries to retrieve specific information such as distinct country 
               names, persons with high ratings, and countries with significant populations.
 
+Assignment 5: This assignment involves creating and managing two tables, Country and Persons, in a region database. The goal is to perform various SQL operations on these tables, including 
+              data insertion, querying, and manipulation.
+              
+
