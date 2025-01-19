@@ -31,7 +31,7 @@ SELECT Country_name All_Countries FROM Persons;
 
  -- (4)Round the ratings of all persons to the nearest integer in the Persons table.
  -- Round ratings to the nearest integer
-SELECT Id, Fname,Lname, ROUND(Rating) AS "Rounded_Rating"
+SELECT Id, Fname,Lname, ROUND(Rating) AS Rounded_Rating
 FROM Persons; 
 
 
