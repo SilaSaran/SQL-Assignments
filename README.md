@@ -13,6 +13,10 @@ Assignment 4: This assignmnet involves creating and populating Country and Perso
 Assignment 5: This assignment involves creating and managing two tables, Country and Persons, in a region database. The goal is to perform various SQL operations on these tables, including 
               data insertion, querying, and manipulation.
 
-Assignment 6: The assignment involves performing SQL joins, listing distinct and all country names, and rounding ratings in the Persons table. These steps help manipulate and retrieve data 
-              in the desired format.
+Assignment 6: The assignment involves performing SQL joins, listing distinct and all country names, and rounding ratings in the Persons table. These steps help manipulate and retrieve 
+              data in the desired format.
+
+Assignment 8: This assignment involves analyzing the Country and Persons tables with SQL queries, and creating a Customer table in the Product database, generating views, updating data, 
+              and writing queries to manage and analyze customer information.
+
 
