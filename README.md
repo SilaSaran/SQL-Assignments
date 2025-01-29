@@ -16,6 +16,9 @@ Assignment 5: This assignment involves creating and managing two tables, Country
 Assignment 6: The assignment involves performing SQL joins, listing distinct and all country names, and rounding ratings in the Persons table. These steps help manipulate and retrieve 
               data in the desired format.
 
+Assignment 7: This assignment involves adding new coulmn as DOB to the Persons table, create a user defind function to calculate age from DOB, and write a query to fetch ages. 
+              Additionally have to check the country names length and extract the first three characters.Then, convert country names to uppercase and lowercase in the Country table.
+              
 Assignment 8: This assignment involves analyzing the Country and Persons tables with SQL queries, and creating a Customer table in the Product database, generating views, updating data, 
               and writing queries to manage and analyze customer information.
 
