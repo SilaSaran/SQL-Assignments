@@ -24,20 +24,18 @@ END;
 -- 2. Write a user-defined function to calculate age using DOB. 
 DELIMITER $$
 
-CREATE FUNCTION CalculateAge (DOB DATE)
+CREATE FUNCTION Calculate_Age (DOB DATE)
 RETURNS INT
 DETERMINISTIC
 BEGIN
-    RETURN TIMESTAMPDIFF(YEAR, DOB, CURDATE()) - 
-           CASE WHEN MONTH(DOB) > MONTH(CURDATE()) OR 
-                     (MONTH(DOB) = MONTH(CURDATE()) AND DAY(DOB) > DAY(CURDATE())) 
-                THEN 1 ELSE 0 END;
+    RETURN 
+    TIMESTAMPDIFF(YEAR, DOB, CURDATE());
 END $$
 
 DELIMITER ;
 
 -- 3. Write a select query to fetch the Age of all persons using the function that has been created.
-SELECT Id, Fname, Lname, CalculateAge(DOB) AS Age FROM Persons;
+SELECT Id, Fname, Lname, Calculate_Age(DOB) AS Age FROM Persons;
 -- 4. Find the length of each country name in the Country table.
 SELECT Country_name, LENGTH(Country_name) AS NameLength FROM Country;
 -- 5. Extract the first three characters of each country's name in the Country table.
