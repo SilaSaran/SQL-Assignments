@@ -22,4 +22,6 @@ Assignment 7: This assignment involves adding new coulmn as DOB to the Persons t
 Assignment 8: This assignment involves analyzing the Country and Persons tables with SQL queries, and creating a Customer table in the Product database, generating views, updating data, 
               and writing queries to manage and analyze customer information.
 
+Assignment 9: This assignment involves creating and invoking stored procedures for the Worker table. Tasks include adding new records, retrieving worker salaries, updating departments, 
+              counting workers in a department, and calculating average salaries by department.
 
