@@ -24,4 +24,7 @@ Assignment 8: This assignment involves analyzing the Country and Persons tables 
 
 Assignment 9: This assignment involves creating and invoking stored procedures for the Worker table. Tasks include adding new records, retrieving worker salaries, updating departments, 
               counting workers in a department, and calculating average salaries by department.
+              
+Assignment 10: The teachers table is created with fields for id, name, subject, experience, and salary, and 8 rows are inserted. Created a log table with fields teacher_id,Action and 
+               timestamp.Triggers handle conditions for salary, logging, and experience constraints.              
 
